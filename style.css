@@ -1,0 +1,26 @@
+body{
+    background-color: orange;
+}
+h1{
+    color: blue;
+    background-color: rgb(230, 254, 172);
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: bob;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes bob {
+    from{box-shadow:1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
